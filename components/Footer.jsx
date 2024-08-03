@@ -9,7 +9,7 @@ export default function Footer() {
           </a>
           .
         </p>
-        <p className="text-xs text-center">No Copyright!</p>
+        <p className="text-xs text-center">&copy; Copyright {new Date().getFullYear()}</p>
       </div>
     </footer>
   );
